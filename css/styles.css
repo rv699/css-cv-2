@@ -1,0 +1,165 @@
+body{
+  margin:0;
+  text-align:center;
+  position: relative;
+  font-family: "Helvetica Neue", Helvetica,Arial, sans-serif;
+  color: #11999E;
+ }
+
+.top-container{
+  background-color: black;
+  /*this only works when element are image type or full width block element for elements other than these
+  we use margin attribute with value auto from the side we want it to centre
+  text align centre had to be entered in parent body of element */
+  height: 600px;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+}
+
+
+.ff{
+  height: 180px;
+  position: absolute;
+  left:450px;
+
+
+
+}
+
+.middle-container{
+  background-color: black;
+  margin: 0;
+}
+
+.profile{
+  margin: 0;
+  padding: 20px;
+}
+
+
+
+
+h1{
+  padding-top: 150px;
+  margin: 0 auto auto 0;
+  font-size: 5.6em;
+  font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+  color:#66BFBF;
+  line-height: 2;
+}
+
+h2{
+  color: #66BFBF;
+}
+  /*not use font sizeim px do it in percentage 100 pervent is = 16px*
+  1em= 16px
+  if we use percentaf and em then it will scale up and down acc to browser
+  if we mention two sizes one in parent body and one in element then they both get imposed over each other
+  to avoid this use rem as the unit of size which means rooted em
+  if size are in pixel then they dont get super imposed
+  to clear text from side of any image we can use clear attribute if u enter clear right
+  it will makes sure that the right margin of the mentioned text or picture is clear.
+  */
+
+.para{
+  font-size: 1.8rem;
+  margin: 0;
+  color: #66BFBF;
+  font-weight: normal;
+  line-height: 2;
+}
+/*font-weight defines how bold a text will look on the screen*/
+
+span{
+  text-decoration: underline;
+}
+
+.bottom{
+  position: absolute;
+  margin-top: 30px;
+  left: 230px;
+  height: 100px;
+  width: 100px;
+
+}
+
+.bottom-container{
+  background-color: #346751;
+  color: white;
+}
+.footer-link{
+  color: white;
+}
+
+
+.upr{
+  position: absolute;
+  margin-top: 50px;
+  margin-left: 140px;
+  height: 100px;
+  width: 100px;
+  right: 150px;
+
+}
+
+
+
+.ldka{
+  height: 200px;
+  width: 200px;
+  float: left;
+  padding: 20px;
+
+}
+/*float property enables you to align your image and get text beside it on
+any side u want
+padding can be added to imcrease space between text and image side by side.
+to make it attractive use float left first then next image float right
+looks cool this way
+keep heading and subsequent text in different colors looks nice ******************very important************/
+
+
+
+ .j{
+   height: 200px;
+   width: 200px;
+   float: right;
+   padding-right: 30px;
+ }
+
+
+.skill-row{
+  display: inline-block;
+  width: 50%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align: left;
+  position: relative;
+  line-height: 2;
+
+
+}
+
+.btn{
+  color: white;
+}
+
+.contact-me{
+  color: white;
+}
+.pars{
+  color: white;
+}
+
+/*pars1{
+  color: white;
+  clear: left;
+}
+
+.pars2{
+  color: white;
+  clear: right;
+}
+*/
